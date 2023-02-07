@@ -1,4 +1,4 @@
-const quebrada = false;
+var quebrada = false;
 function mudaLampada(tipo) {
   if (!quebrada) {
     document.getElementById("luz").src = "_imagens/" + tipo + ".jpg";
